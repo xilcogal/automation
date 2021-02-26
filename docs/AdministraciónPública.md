@@ -100,7 +100,7 @@ La automatización con RPA presenta dos alternativas, dependiendo de la funciona
 
 Cuando el ERP disponga de la opción de generación de certificados de empresa por lotes,  esta tarea puede automatizarse con un RPA. En caso contrario, el fichero XML debe almacenarse en un repositorio y posteriormente será subido a la sede electrónica por el RPA.
 
-![](/home/xose/Proxectos/docs/automation/docs/images/rpa-model.png)
+![](./images/rpa-model.png)
 
 En cuanto a la gestión de errores, el RPA comprobara que la subida a la sede electrónica es correcta, de no serlo, debe generar una alerta para que el usuario resuelva el problema. No es posible automatizar la resolución, puesto que el error puede venir de un fallo en el generador de XML o en los datos del empleado.
 
@@ -110,7 +110,7 @@ La automatización con RPA presenta dos alternativas, dependiendo de la funciona
 
 Cuando el ERP disponga de la opción de generación de contratos por lotes,  esta tarea puede automatizarse con un RPA. En caso contrario, el fichero XML debe almacenarse en un repositorio y posteriormente será subido a la sede electrónica por el RPA.
 
-![](/home/xose/Proxectos/docs/automation/docs/images/rpa-model.png)
+![](.images/rpa-model.png)
 
 En cuanto a la gestión de errores, el RPA comprobara que la subida a la sede electrónica es correcta, de no serlo, debe generar una alerta para que el usuario resuelva el problema. No es posible automatizar la resolución, puesto que el error puede venir de un fallo en el generador de XML o en los datos del empleado.
 
@@ -120,7 +120,7 @@ La automatización con RPA presenta dos alternativas, dependiendo de la funciona
 
 Cuando el ERP disponga de la opción de generación de liquidaciones irpf por lotes,  esta tarea puede automatizarse con un RPA. En caso contrario, el fichero XML debe almacenarse en un repositorio y posteriormente será subido a la sede electrónica por el RPA.
 
-![](/home/xose/Proxectos/docs/automation/docs/images/rpa-model.png)
+![](./images/rpa-model.png)
 
 En cuanto a la gestión de errores, el RPA comprobara que la subida a la sede electrónica es correcta, de no serlo, debe generar una alerta para que el usuario resuelva el problema. No es posible automatizar la resolución, puesto que el error puede venir de un fallo en el generador de XML o en los datos del empleado.
 
@@ -130,11 +130,15 @@ La automatización con RPA presenta dos alternativas, dependiendo de la funciona
 
 Cuando el ERP disponga de la opción de generación de cotizaciones y afiliación por lotes,  esta tarea puede automatizarse con un RPA. En caso contrario, el fichero XML debe almacenarse en un repositorio y posteriormente será cargado en Siltra, donde se validará, adaptará y enviará..
 
-![](/home/xose/Proxectos/docs/automation/docs/images/rpa2-model.png)
+![](./images/rpa2-model.png)
 
 En cuanto a la gestión de errores, el RPA comprobará que la comunicación sea correcta, de no serlo, debe generar una alerta para que el usuario resuelva el problema. No es posible automatizar la resolución, puesto que el error puede venir de un fallo en el generador de XML o en los datos del empleado.
 
 ### Modelo Back-End
+
+El modelo general de comunicación `back-end` se basa en el desarrollo de un servicio capaz de interoperar con distintos `web services` de las administraciones públicas.
+
+![](./images/back-model.png)
 
 #### Certific@2
 
