@@ -86,6 +86,40 @@ Este sistema supone modificaciones en el actual procedimiento de intercambio de 
 
 Para el envío de los ficheros de Cotización y Afiliación a la TGSS, esta entidad ofrece el aplicativo SILTRA, a través del cual deben hacerse los envíos.
 
+![Modelo de comunicación](/home/xose/Proxectos/docs/automation/docs/images/comunicaciones-red.png)
+
+Descripción de los ficheros:
+
+- Ficheros de cotización
+- SLD: ficheros de envío de bases, solicitudes de datos de cotización y otros.
+  - SLD-Fichero de Bases.
+    - SLD-Fichero de Cálculos.
+    - SLD-Fichero de Respuesta.
+    - SLD-Fichero de Solicitud de Borrador.
+    - SLD-Fichero de Solicitud de Cálculos.
+    - SLD-Fichero de Solicitud de Confirmación.
+    - SLD-Fichero de Solicitud de Trabajadores y Tramos.
+    - SLD-Fichero Documento Calculo Liquidación.
+    - SLD-Fichero Recibo de Liquidación de Cotizaciones.
+    - SLD-Fichero Relación Nominal de Trabajadores.
+    - SLD-Fichero Trabajadores y Tramos.
+    - SLD-Fichero de Comunicación de Datos Bancarios.
+    - SLD-Fichero Resolución Datos Bancarios.
+    - SLD-Fichero Consulta Datos Bancarios.
+    - SLD-Fichero Consulta Estado Liquidaciones.
+   - RNT: Relación Nominal de Trabajadores por periodo de recaudación.
+   - RCL: Recibo de liquidación por periodo de recaudación.
+   - DCL: Documento de cálculo de liquidación.
+ - Ficheros afiliación TGSS:
+    - AFI: fichero de afiliación.
+    - CRA: fichero de conceptos retributivos abonados.
+    - CFA: fichero de corrección de afiliación.
+ - Ficheros afiliación INSS:
+    - FDI: alta, bajas, confirmaciones IT y certificados de empresa.
+    - FRI: repuesta FDI.
+
+  
+
 #### Otra información relevante
 
 Se puede utilizar SILTRA como servicio desatendido sin que el usuario intervenga en el envío. Para realizar este tipo de envíos se debe llamar al fichero siltra.jar pasando como parámetro la ruta del fichero xml. Sí los envíos de afiliación o cotización están configurados como Validar, Adaptar y Enviar  no será necesaria la intervención del usuario, por el contrario si están marcados como validación y adaptación, será necesario el usuario haga el envío manualmente.
