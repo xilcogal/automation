@@ -86,7 +86,7 @@ Este sistema supone modificaciones en el actual procedimiento de intercambio de 
 
 Para el envío de los ficheros de Cotización y Afiliación a la TGSS, esta entidad ofrece el aplicativo SILTRA, a través del cual deben hacerse los envíos.
 
-![Modelo de comunicación](/home/xose/Proxectos/docs/automation/docs/images/comunicaciones-red.png)
+![Modelo de comunicación](./images/comunicaciones-red.png)
 
 Descripción de los ficheros:
 
