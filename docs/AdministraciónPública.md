@@ -99,9 +99,6 @@ Descripción de los ficheros:
     - SLD-Fichero de Solicitud de Cálculos.
     - SLD-Fichero de Solicitud de Confirmación.
     - SLD-Fichero de Solicitud de Trabajadores y Tramos.
-    - SLD-Fichero Documento Calculo Liquidación.
-    - SLD-Fichero Recibo de Liquidación de Cotizaciones.
-    - SLD-Fichero Relación Nominal de Trabajadores.
     - SLD-Fichero Trabajadores y Tramos.
     - SLD-Fichero de Comunicación de Datos Bancarios.
     - SLD-Fichero Resolución Datos Bancarios.
